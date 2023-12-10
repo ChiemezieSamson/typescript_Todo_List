@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  form {
+    @apply mb-11 text-center
+  }
+
+  button {
+    @apply px-0.5 mr-1.5 
+  }
+
+  li {
+    @apply grid grid-flow-col justify-between
+  }
+
+  ul {
+    @apply text-purple-500 text-xl hover:text-pink-500
+  }
+}
+
+
+@layer utilities {
+  #Add_todo {
+    @apply mx-4 bg-sky-600 px-3 py-0.5 rounded-2xl text-white hover:bg-teal-600
+  }
+
+  .wrapper {
+    @apply ml-5 text-sm pt-1
+  }
+}
